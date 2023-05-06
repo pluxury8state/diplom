@@ -6,10 +6,10 @@ import time
 if __name__ == "__main__":
     CONFIDENCE = 0.5
     NMS_THRESHOLD = 0.5
-    IOU_THRESHOLD = 0.5
-    weights_path = r"C:\Users\Admin\PycharmProjects\Make_model_with_YOLO\backups\weights\416_416\bolt\1723_10_percent\bolt_2000.weights"
-    labels_path = r"C:\Users\Admin\PycharmProjects\Make_model_with_YOLO\backups\names\classes.names"
-    config_path = r"C:\Users\Admin\PycharmProjects\Make_model_with_YOLO\backups\cfgs\bolt_test.cfg"
+    # IOU_THRESHOLD = 0.5
+    weights_path = r"D:\Pycharm_Projects\GIT_diplom\diplom\backups\weights\416_416\bolt\1000_10_percent\bolt_3000.weights"
+    labels_path = r"D:\Pycharm_Projects\GIT_diplom\diplom\backups\names\classes.names"
+    config_path = r"D:\Pycharm_Projects\GIT_diplom\diplom\backups\cfgs\bolt.cfg"
     font_scale = 1
     thickness = 1
 
@@ -36,7 +36,7 @@ if __name__ == "__main__":
     model.setInputParams(size=(416, 416), scale=1/255, swapRB=True)
 
 
-    cap = cv.VideoCapture(0)
+    cap = cv.VideoCapture(1)
     starting_time = time.time()
     frame_counter = 0
     while True:
