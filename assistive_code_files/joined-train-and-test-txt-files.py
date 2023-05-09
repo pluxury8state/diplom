@@ -38,7 +38,7 @@ Setting up full path to directory with joined images
 # or:
 # 'C:\\Users\\my_name\\Downloads\\Labelled-Custom'
 full_path_to_joined_images = \
-    r'C:\Users\Admin\PycharmProjects\Make_model_with_YOLO\imgs\joined_bolts'
+    r'D:\Pycharm_Projects\Make_model_with_YOLO\imgs\joined_bolts'
 
 """
 End of:
@@ -133,9 +133,9 @@ with open('test.txt', 'w') as test_txt:
 End of:
 Creating train.txt and test.txt files
 """
-
-with open('valid.txt', 'w') as test_txt:
-    # Going through all elements of the list
-    for e in p_valid:
-        # Writing current path at the end of the file
-        test_txt.write(e)
+#
+# with open('valid.txt', 'w') as test_txt:
+#     # Going through all elements of the list
+#     for e in p_valid:
+#         # Writing current path at the end of the file
+#         test_txt.write(e)

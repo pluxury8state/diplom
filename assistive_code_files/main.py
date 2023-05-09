@@ -7,9 +7,9 @@ if __name__ == "__main__":
     CONFIDENCE = 0.5
     NMS_THRESHOLD = 0.5
     # IOU_THRESHOLD = 0.5
-    weights_path = r"D:\Pycharm_Projects\GIT_diplom\diplom\backups\weights\416_416\bolt\1000_10_percent\bolt_3000.weights"
+    weights_path = r"D:\Pycharm_Projects\GIT_diplom\diplom\backups\weights\self_made\bolt_3000.weights"
     labels_path = r"D:\Pycharm_Projects\GIT_diplom\diplom\backups\names\classes.names"
-    config_path = r"D:\Pycharm_Projects\GIT_diplom\diplom\backups\cfgs\bolt.cfg"
+    config_path = r"D:\Pycharm_Projects\GIT_diplom\diplom\backups\cfgs\bolt_self_made.cfg"
     font_scale = 1
     thickness = 1
 
