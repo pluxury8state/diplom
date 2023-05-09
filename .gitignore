@@ -1,0 +1,5 @@
+
+backups/cfgs.zip
+*.zip
+*.7z
+YOLO-3-OpenCV/yolo-coco-data/yolov3.weights
