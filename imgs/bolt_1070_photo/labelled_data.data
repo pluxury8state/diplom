@@ -1,0 +1,5 @@
+classes = 1
+train = C:\yolov4\darknet\build\darknet\x64\data\data\data_for_obj_det-main\bolt_1600_10_percent\train.txt
+valid = C:\yolov4\darknet\build\darknet\x64\data\data\data_for_obj_det-main\bolt_1600_10_percent\test.txt
+names = C:\yolov4\darknet\build\darknet\x64\data\data\data_for_obj_det-main\bolt_1600_10_percent\classes.names
+backup = backup

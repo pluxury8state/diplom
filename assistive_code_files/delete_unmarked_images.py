@@ -5,7 +5,7 @@ if __name__ == "__main__":
     txt_files = []
     image_files = []
 
-    path_to_directory = r"C:\Users\Admin\PycharmProjects\Make_model_with_YOLO\imgs\bolt"
+    path_to_directory = r"D:\Pycharm_Projects\GIT_diplom\diplom\imgs\VALID_DATASET"
     for file in os.listdir(path_to_directory):
         if file.endswith("jpg"):
             image_files.append(os.path.splitext(file)[0])
