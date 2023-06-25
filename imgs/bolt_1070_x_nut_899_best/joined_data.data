@@ -1,0 +1,5 @@
+classes = 2
+train = D:\Pycharm_Projects\GIT_diplom\diplom\imgs\bolt_1070_x_nut_899_best/train.txt
+valid = D:\Pycharm_Projects\GIT_diplom\diplom\imgs\bolt_1070_x_nut_899_best/test.txt
+names = D:\Pycharm_Projects\GIT_diplom\diplom\imgs\bolt_1070_x_nut_899_best/classes.names
+backup = backup

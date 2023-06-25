@@ -39,7 +39,7 @@ Setting up full paths to directories
 # r'C:\Users\my_name\Downloads\video-to-annotate'
 # or:
 # 'C:\\Users\\my_name\\Downloads\\video-to-annotate'
-full_path_to_labelled_images = r'C:\Users\Admin\PycharmProjects\Make_model_with_YOLO\imgs\bolt_self_made'
+full_path_to_labelled_images = r'D:\Pycharm_Projects\GIT_diplom\diplom\imgs\bolt_1070_photo_the_best'
 
 # Full or absolute path to the folder with downloaded images
 # Find it with Py file getting-full-path.py
@@ -48,7 +48,7 @@ full_path_to_labelled_images = r'C:\Users\Admin\PycharmProjects\Make_model_with_
 # or:
 # 'C:\\Users\\my_name\\OIDv4_ToolKit\\OID\\Dataset\\train\\Car_Bicycle_wheel_Bus'
 full_path_to_downloaded_images = \
-    r'C:\Users\Admin\PycharmProjects\Make_model_with_YOLO\imgs\bolt'
+    r'D:\Pycharm_Projects\GIT_diplom\diplom\imgs\nut_899_best'
 
 # Full or absolute path to the folder with joined images
 # Find it with Py file getting-full-path.py
@@ -57,7 +57,7 @@ full_path_to_downloaded_images = \
 # or:
 # 'C:\\Users\\my_name\\Downloads\\Labelled-Custom'
 full_path_to_joined_images = \
-    r'C:\Users\Admin\PycharmProjects\Make_model_with_YOLO\imgs\joined_bolts'
+    r'D:\Pycharm_Projects\GIT_diplom\diplom\imgs\bolt_1070_x_nut_899_best'
 
 """
 End of:

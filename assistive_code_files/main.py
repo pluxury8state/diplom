@@ -4,21 +4,13 @@ from sys import argv
 import time
 
 if __name__ == "__main__":
-    CONFIDENCE = 0.5
+    CONFIDENCE = 0.45
     NMS_THRESHOLD = 0.5
     # IOU_THRESHOLD = 0.5
-    weights_path = r"D:\Pycharm_Projects\GIT_diplom\diplom\backups\weights\joined_dataset_bolt_from_collab\bolt_1000.weights"
-    labels_path = r"D:\Pycharm_Projects\GIT_diplom\diplom\backups\names\classes.names"
-    config_path = r"D:\Pycharm_Projects\GIT_diplom\diplom\backups\cfgs\bolt_self_made.cfg"
+    weights_path = r"D:\Pycharm_Projects\GIT_diplom\diplom\backups\weights\bolt_1070_x_nut_899_best\nut_x_bolt_3000.weights"    labels_path = r"D:\Pycharm_Projects\GIT_diplom\diplom\imgs\bolt_1070_x_nut_899_best\classes.names"
+    config_path = r"D:\Pycharm_Projects\GIT_diplom\diplom\backups\cfgs\nut_x_bolt.cfg"
     font_scale = 1
     thickness = 1
-
-    # args_from_c = argv
-    # print(type(args_from_c), args_from_c)
-    # if args_from_c[1:]:
-    #     weights_path, labels_path, config_path = args_from_c[1:]
-    #
-    # print(weights_path, labels_path, config_path)
 
     COLORS = [(0, 255, 0), (0, 0, 255), (255, 0, 0),
               (255, 255, 0), (255, 0, 255), (0, 255, 255)]
